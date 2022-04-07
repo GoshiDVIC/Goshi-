@@ -11,18 +11,10 @@ Adafruit_BME280 bme;
 float temperature, humidity, pressure;
 
 
-const char* ssid = "TRISTAN";  // Enter SSID here
-const char* password = "anm.tri6";  //Enter Password here 
-//192.168.5.1
+const char* ssid = "...";  // Enter SSID here
+const char* password = "...";  //Enter Password here 
 String serverName = "http://192.168.97.1:8000/donnees";
 
-//const char* ssid = "devolo-87f";  // Enter SSID here
-//const char* password = "HQOOEKGSUBJUQILA";  //Enter Password here 
-//String serverName = "http://192.168.1.24:8000/donnees";
-
-//const char* ssid = "PoleDeVinci_DVIC";  // Enter SSID here
-//const char* password = "8PfURsp!dvic";  //Enter Password here 
-//String serverName = "http://192.168.1.24:8000/donnees";
  
 void setup() {
   Serial.begin(115200);
